@@ -26,20 +26,20 @@
     "MD",
     "baileys-md"
   ],
-  "homepage": "https://github.com/saipulanuar/RPG-MD-V5",
+  "homepage": "https://github.com/SaepEp/NexBotzV3",
   "author": {
-    "name": "Saipul Anuar"
+    "name": "SaepEp"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saipulanuar/RPG-MD-V5.git"
+    "url": "git+https://github.com/SaepEp/NexBotzV3.git"
   },
   "bugs": {
-    "url": "https://github.com/saipulanuar/RPG-MD-V5/issues"
+    "url": "https://github.com/SaepEp/NexBotzV3"
   },
   "license": "ISC",
   "dependencies": {
-    "@adiwajshing/baileys": "github:Saipulanuar/baileys",
+    "@adiwajshing/baileys": "4.4.0",
         "@bochilteam/scraper": "^2.0.0",
         "@vitalets/google-translate-api": "^8.0.0",
         "awesome-phonenumber": "^2.68.0",
