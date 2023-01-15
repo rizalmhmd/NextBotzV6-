@@ -14,17 +14,16 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 *🗂️ info:* ${x.info}
 *📊 duration:* ${x.duration}
     `
-    conn.send2ButtonImg(m.chat, x.image, caption, author,
-'LOW', '.xnxxvid ' + x.files.low,
+    conn.sendButtonVid(m.chat, x.files.low, caption, author,
 'HIGH', '.xnxxvid ' + x.files.high
 , m)
 	} catch (e) {
 		throw e;
 	}
 }
-handler.help = ["xnxxdl", "dlxnxx"].map(v => v + ' <url>')
+handler.help = ["xnxxdl"].map(v => v + ' <url>')
 handler.tags = ["downloader"]
-handler.command = /^(xnxxdl|dlxnxx)$/i
+handler.command = /^(xnxxdl)$/i
 handler.register = true
 
 export default handler
