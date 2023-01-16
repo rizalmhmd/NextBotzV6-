@@ -17,4 +17,7 @@ handler.help = ['hentaivid']
 handler.tags = ['nsfw', 'premium']
 handler.command = ['hentaivid']
 
+handler.register = true
+handler.premium = true
+
 export default handler
