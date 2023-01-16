@@ -16,7 +16,7 @@ cap += '\n' + '•••••••••••••••••••••�
 m.reply(cap)
 }
 handler.command = ['nekopoi']
-handler.tags = ['nsfw']
+handler.tags = ['nsfw', 'premium']
 
 handler.register = true
 handler.premium = true
