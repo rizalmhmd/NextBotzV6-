@@ -16,6 +16,10 @@ cap += '\n' + '•••••••••••••••••••••�
 m.reply(cap)
 }
 handler.command = ['nekopoi']
+handler.tags = ['nsfw']
+
+handler.register = true
+handler.premium = true
 
 export default handler
 
