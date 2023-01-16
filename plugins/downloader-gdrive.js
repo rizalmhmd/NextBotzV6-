@@ -12,6 +12,7 @@ let handler = async (m, { conn, args }) => {
 		conn.sendMessage(m.chat, { document: { url: res.downloadUrl }, fileName: res.fileName, mimetype: res.mimetype }, { quoted: m })
 	})
 }
+handler.help = handler.alias = ['gdrive']
 handler.command = /^(gdrive)$/i
 handler.disabled = false
 handler.limit = true
