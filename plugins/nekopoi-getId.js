@@ -10,5 +10,9 @@ Download : ${JSON.stringify(res.download)}`
 await conn.sendFile(m.chat, res.image, 'image.jpg', cap, m)
 }
 handler.command = ['nekogetid']
+handler.tags = ['nsfw', 'premium']
+
+handler.register = true
+handler.premium = true
 
 export default handler
