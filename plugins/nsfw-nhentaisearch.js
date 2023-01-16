@@ -28,9 +28,10 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
     await conn.sendMessage(m.chat, listMessage, { quoted : fakes })
 }
 handler.help = ['nhentaisearch']
-handler.tags = ['nsfw']
+handler.tags = ['nsfw', 'premium']
 handler.command = /^nhentais(earch)$/i
 
 handler.limit = true 
+handler.premium = true
 
 export default handler
