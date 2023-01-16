@@ -10,20 +10,20 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     let w = await res.json()
     let x = w.result
     let caption = `*${htki} xnxxdl ${htka}*
+    
 *💌 title:* ${x.title}
 *🗂️ info:* ${x.info}
 *📊 duration:* ${x.duration}
     `
-    conn.sendButtonVid(m.chat, x.files.low, caption, author,
-'HIGH', '.xnxxvid ' + x.files.high
-, m)
-	} catch (e) {
+conn.sendFile(m.chat, x.files.low, 'asupan.mp4', caption, m)
+} catch (e) {
 		throw e;
 	}
 }
 handler.help = ["xnxxdl"].map(v => v + ' <url>')
-handler.tags = ["downloader"]
-handler.command = /^(xnxxdl)$/i
+handler.tags = ["nsfw", "premium"]
+handler.command = /^(xnxxdl|dlxnxx)$/i
 handler.register = true
+handler.premium = true
 
 export default handler
