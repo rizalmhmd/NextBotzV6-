@@ -24,12 +24,12 @@ ${htjava} *💌 Nama* : 𝚉𝚊𝚕𝚕
 ${htjava} *✉️ Nama RL* : Hamba Allah
 ${htjava} *♂️ Gender* : Boys
 ${htjava} *🕋 Agama* : Islam
-${htjava} *⏰ Tanggal lahir* : Private 🥶
-${htjava} *🎨 Umur* : PRIVATE
-${htjava} *🧮 Kelas* : PRIVATE
-${htjava} *🧩 Hobby* :Mangan Turu 
-${htjava} *💬 Sifat* : 𝙽𝚎𝚝𝚛𝚊𝚕🐦
-${htjava} *🗺️ Tinggal* : 𝙹𝚊𝚝𝚎𝚗𝚐, 𝚆𝚘𝚗𝚘𝚜𝚘𝚋𝚘
+${htjava} *⏰ Tanggal lahir* : Private 
+${htjava} *🎨 Umur* : Private 
+${htjava} *🧮 Kelas* : Private 
+${htjava} *🧩 Hobby* : Mangan Turu
+${htjava} *💬 Sifat* : Netral
+${htjava} *🗺️ Tinggal* : Indonesia
 ${htjava} *❤️ Idola* : 𝚈𝚞𝚣𝚞𝚛𝚒𝚑𝚊 𝙺𝚊𝚛𝚎𝚗
 
 ${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
