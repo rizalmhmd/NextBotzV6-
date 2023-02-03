@@ -11,8 +11,8 @@ let json = await res.json()
         ['ᴀᴜᴅɪᴏ', `.tiktokaudio ${args}`],
         [null, null]], m)
 }
-handler.help = ['tiktok', 'tiktok', 'tiktokdl'].map(v => v + ' <url>')
+handler.help = ['tiktok']
 handler.tags = ['downloader']
-handler.command = /^(tik(tok)?(tok)?(dl)?)$/i
+handler.command = /^(tiktok)$/i
 
 export default handler
