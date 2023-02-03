@@ -22,7 +22,9 @@ handler.help = ['linkgroup']
 handler.tags = ['group']
 handler.command = /^link(g(c)?ro?up)?$/i
 
+handler.admin = true
 handler.group = true
-//handler.botAdmin = true
+handler.botAdmin = true
+handler.owner = false
 
 export default handler 
