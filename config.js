@@ -29,7 +29,7 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 /*============== INFO OWNER ==============*/
 global.sig = 'https://instagram.com/zallzall02'
 global.syt = 'https://youtube.com/@Putra_Modz_'
-global.sgh = 'https://github.com/Lucife-Putra'
+global.sgh = 'https://github.com/rizalmhmd'
 global.sgc = 'https://chat.whatsapp.com/FR1KfE3OTcQCayiabos8Ff'
 global.sdc = 'https://wa.me/6281333154367'
 global.swa = 'wa.me/6281333154367'
@@ -41,11 +41,11 @@ global.pdana = '081333154367'
 global.povo = '082322133457'
 global.pgopay = '-'
 global.ppulsa = '081333154367'
-global.ppulsa2 = '082322133457'
+global.ppulsa2 = '081327238906'
 global.psaweria = '-'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6281327238906'
+global.nomorbot = '6282322133457'
 global.nomorown = '6281333154367'
 global.namebot = '𝙕𝘼𝙇𝙇𝙭𝘽𝙊𝙏𝙕'
 global.nameown = '𝚉𝚊𝚕𝚕'
@@ -53,7 +53,7 @@ global.nameown = '𝚉𝚊𝚕𝚕'
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6281333154367', 'PutraModz', true]
+  ['6281333154367', '𝚉𝚊𝚕𝚕', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
