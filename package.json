@@ -1,6 +1,6 @@
 {
   "name": "newscbot2022",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "description": "<p align=\"center\"> <img src=\"https://telegra.ph/file/6ab4daac226292a112540.jpg\" alt=\"YUKI BOT\" width=\"500\"/>",
   "main": "index.js",
   "type": "module",
@@ -37,17 +37,17 @@
   "bugs": {
     "url": "https://github.com/SaepEp/NexBotzV3"
   },
-  "license": "ISC",
+  "license": "GPL-3.0-or-later",
   "dependencies": {
     "@adiwajshing/baileys": "4.4.0",
-        "@bochilteam/scraper": "^2.0.0",
+        "@bochilteam/scraper": "^3.0.0",
         "@vitalets/google-translate-api": "^8.0.0",
         "awesome-phonenumber": "^2.68.0",
-        "axios": "^0.24.0",
-        "brainly-scraper-v2": "^1.1.2",
+        "axios": "^0.27.0",
+        "brainly-scraper-v2": "^2.0.9",
         "cfonts": "^2.10.0",
         "chalk": "^5.0.0",
-        "cheerio": "^1.0.0-rc.10",
+        "cheerio": "^1.0.0-rc.12",
         "colors": "1.4.0",
         "deepai": "^1.0.21",
         "dhn-api": "^1.1.3",
