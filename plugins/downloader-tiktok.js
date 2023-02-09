@@ -1,22 +1,23 @@
-import { tiktokdl, tiktokdlv2, tiktokdlv3 } from '@bochilteam/scraper'
 import fetch from 'node-fetch'
+let handler  = async (m, { conn, args, text, usedPrefix, command }) => {
+    let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+let name = conn.getName(who)
+if (!args[0]) throw `Use example ${usedPrefix}${command} https://www.tiktok.com/@omagadsus/video/7025456384175017243`
+    
+                    let tiktok = 'https://telegra.ph/file/c9266a51bf203661182b0.jpg'
+let anu2 = `    𝙕𝘼𝙇𝙇𝙭𝘽𝙊𝙏𝙕
 
-let handler = async (m, { conn, args, usedPrefix, command }) => {
-    if (!args[0]) throw `Use example ${usedPrefix}${command} https://www.tiktok.com/@omagadsus/video/7025456384175017243`
-
-  const { author: { nickname }, video, description } = await tiktokdl(args[0])
-        .catch(async _ => await tiktokdlv2(args[0]))
-        .catch(async _ => await tiktokdlv3(args[0]))
-    const url = video.no_watermark2 || video.no_watermark || 'https://tikcdn.net' + video.no_watermark_raw || video.no_watermark_hd
-    if (!url) throw 'Can\'t download video!'
-    conn.sendHydrated(m.chat, `${htki} ᴛɪᴋᴛᴏᴋ ᴡᴍ ${htka}`, `➔ ɴɪᴄᴋɴᴀᴍᴇ ${nickname}${description ? `\n➔ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ:\n${description}` : ''}`, await (await fetch(url)).buffer(),
-        url, '🌎 s ᴏ ᴜ ʀ ᴄ ᴇ', null, null, [
-        ['ᴅᴏɴᴀꜱɪ', `.donasi`],
-        ['ᴀᴜᴅɪᴏ', `.tiktokaudio ${args}`],
-        [null, null]], m)
+Silahkan Pilih,Dengan Cara Klik Tombol Dibawah Ini\n\n\nLink Esceh:https://youtube.com/@Putra_Modz_`
+  conn.send2ButtonImg(m.chat, await(await fetch(tiktok)).buffer(), anu2, botdate, 'VIDEO', `${usedPrefix}ttnowm ${(args[0])}`, 'AUDIO', `${usedPrefix}tiktokaudio ${(args[0])}`,)
+ conn.reply(m.chat, `${wait}`, m)
 }
-handler.help = ['tiktok', 'tiktok', 'tiktokdl'].map(v => v + ' <url>')
+handler.help = ['tiktok'].map(v => v + ' <url>')
 handler.tags = ['downloader']
-handler.command = /^(tik(tok)?(tok)?(dl)?)$/i
-handler.level = false
+handler.command = /^(tt|tiktok|tiktokdl|dltiktok|dltt|ttdl)$/i
+handler.group = false
+handler.register = false
+handler.limit = true
+
+handler.fail = null
+
 export default handler
